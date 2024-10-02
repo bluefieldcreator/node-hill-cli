@@ -1,0 +1,21 @@
+{
+    "name": "@shiggy-loves-pc/node-hill-cli",
+    "version": "1.0.2",
+    "description": "A Node-Hill CLI",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "bin": {
+        "nh-cli": "index.js"
+    },
+    "keywords": [],
+    "author": "Shiggy, Deweystuff, Hirundinidae",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "figlet": "^1.5.0",
+        "fs": "0.0.1-security",
+        "inquirer": "^7.3.3"
+    }
+}
